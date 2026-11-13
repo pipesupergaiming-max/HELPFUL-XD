@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F7F8FA" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="HelpfulSmile" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="/pwa-192x192.png" />
+    <title>Helpful Smile — Mejora tu Habilidad y Jugabilidad</title>
+    <meta
+      name="description"
+      content="Plataforma de entrenamiento y consejos tácticos para mejorar tu habilidad de juego y jugabilidad en los videojuegos más famosos."
+    />
+    <meta property="og:title" content="Helpful Smile — Mejora tu Habilidad y Jugabilidad" />
+    <meta
+      property="og:description"
+      content="Consejos tácticos, diagnóstico de errores y entrenamiento interactivo para los videojuegos más famosos."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      try {
+        if (localStorage.getItem('helpful-smile-theme') === 'dark') {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body class="bg-[#F7F8FA] dark:bg-[#0B0F17] text-[#0F172A] dark:text-slate-100 antialiased selection:bg-[#2563EB]/20 selection:text-[#0F172A] dark:selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "Helpful Smile",
+  "description": "Plataforma de entrenamiento y consejos tácticos para mejorar tu habilidad de juego y jugabilidad en los videojuegos más famosos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
